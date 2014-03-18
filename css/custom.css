@@ -1,0 +1,49 @@
+body
+{
+
+    margin-left:100px;
+    background-image:url("http://www.aperfectworld.org/clipart/nature/cartoon_tree.png");
+    background-repeat:no-repeat;
+    background-position:left bottom;
+    background-size:500px 500px;
+    background-attachment:fixed;
+}
+
+.container
+{
+    text-align:right;
+}
+
+.center_div
+{
+    border:2px solid gray;
+    margin-left:auto;
+    margin-right:30px;
+    width:700px;
+    top:100px
+    background-color:#d0f0f6;
+    text-align:left;
+    padding:8px;
+}	
+
+#command
+{
+    width:220px;
+
+    padding:10px;
+    border:5px solid gray;
+    margin:100px;
+
+    font:15px arial,sans-serif;
+    text-align:left;
+}
+#titles
+{
+    font:italic bold 25px/20px Georgia,serif;
+    text-align:center
+}
+#contents
+{
+    font:italic bold 15px/20px Georgia,serif;
+    text-align:left
+}
