@@ -6,16 +6,21 @@
     </head>
 
     <body>
-        <h2>Command me</h2>
-        <input type="text" id="insert" onchange="stop_and_start()">
-        <p id="command"></p>
-
-        <div class="container">
-            <div class="center_div">
-                <br><br>
-                <h1 id="titles">Title</h1>
-                <p id="contents">Content</p>
-            </div>
+        <table id="contents">
+             <tbody>
+                <tr>
+                	<td>content</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="input">
+ 	       <h2 class="h2_position">Your input</h2>
+ 	       <input type="text" id="insertya" onkeypress="gaming(event)" onkeyup="deleting(event)">
+	        <p id="command"></p>
+	        <br><br>
+***************************************************************<br>
+Paragraph:        <p id="checkingTitle"></p>
+I type:        <p id="checkingBody"></p>
         </div>
 
         <script src="js/main.js"></script>
