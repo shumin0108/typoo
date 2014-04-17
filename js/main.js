@@ -20,6 +20,7 @@ var wrong=0;
 var point=0;
 var count=0;
 var stay=1;
+var temp;
 function show()
 {
     number=Math.floor(Math.random()*9)+0;
@@ -36,11 +37,13 @@ function deleting(event)
 	if(word==8)//backspace
     {
         document.getElementById("command").innerHTML="backspace";
-        character=(articles[number].content)[point];
-        checking(character,wordd);
-        document.getElementById("checkingTitle").innerHTML=character;
-        document.getElementById("checkingBody").innerHTML=wordd;
         point--;
+        character=(articles[number].content)[point];
+     //   checking(character,temp);
+        
+        document.getElementById("checkingTitle").innerHTML=character;
+        document.getElementById("checkingBody").innerHTML=temp;
+ //       point--;
     
     }
 }
@@ -72,6 +75,7 @@ function gaming(event)
         document.getElementById("checkingTitle").innerHTML=character;
         document.getElementById("checkingBody").innerHTML=wordd;
         point++;
+        temp=wordd;
     }
 }
 function checking(base,input)
